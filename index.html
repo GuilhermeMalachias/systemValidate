@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="container">
+        <div id="content">
+            <h1 class="align" id="dia"></h1>
+            <hr>
+            <p class="align" id="informacao"></p>
+            <br> <br> <br> <br> <br> <br>
+            <button id="botao" type="submit" onclick="tipoAcesso()">Confirmar</button>
+            <br> <br>
+            <div id="acesso">
+            </div>
+            <div id="promocao" onmouseover="permitirPromocao()" onmouseout="esconder()">
+
+            </div> <br> <br>
+            <form action="index.php" method="post" id="formulario">
+                <p>*"Cadastre" um email fictício*</p>
+                <input type="email" name="email" class="hideEamil" placeholder="Seu email aqui"> <br> <br>
+                <button type="submit" class="hideEmail">Enviar</button>
+            </form>
+            <div id="cadInfo">
+                <h1> </h1>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="index.js"></script>
+</html>  

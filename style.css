@@ -1,0 +1,40 @@
+html {
+    background-color: gray;
+}
+
+#container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#content {
+    text-align: center;
+    justify-content: space-between;
+
+    width: 70rem;
+    height: 10%;
+
+    margin: auto;
+    padding: 50px;
+
+    background-color: white;
+    border: solid black 2px;
+    border-radius: 7px;
+    box-shadow: 10px 5px 5px rgb(15, 191, 197);
+}
+
+#informacao {
+    text-align: center;
+    bottom: 20em;
+    left: 35%;
+}
+
+#promocao {
+    margin: auto;
+    cursor:pointer;
+    border-radius: 7px;
+    background-color: black;
+    width: 30vh;
+    height: 7vh;
+}
